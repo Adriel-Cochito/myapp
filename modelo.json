@@ -39,6 +39,14 @@
       "telefone": "3499665566",
       "email": "maria@gmail.com",
       "endereco": "Rua da Maria da Silva"
+    },
+    {
+      "id": "36d7",
+      "telefone": "3499665544",
+      "email": "asd@gmailcom",
+      "nome": "Juca jones",
+      "endereco": "Rua das ruas",
+      "nascimento": "2024-11-19"
     }
   ]
 }
