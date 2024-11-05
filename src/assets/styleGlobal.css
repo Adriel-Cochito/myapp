@@ -1,0 +1,164 @@
+:root,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: #f4f4f4;
+    margin-top: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+main {
+    padding: 16px;
+    min-height: 500px;
+}
+
+.btn-cadastrar {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table td a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.btn-editar {
+    background-color: #ffc107;
+}
+
+.btn {
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cadastro {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.cadastro .field {
+    flex: 1;
+    max-width: 400px;
+}
+.cadastro .field label {
+    color: #222;
+    font-weight: bold;
+}
+.cadastro .field input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+.cadastro .field button {
+    border: none;
+    padding: 10px;
+    background: #666;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.topo {
+    background-color: #666;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.topo button {
+    background-color: #219ebc;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.topo button.list {
+    background-color: #c1121f;
+}
+
+.menu a.active {
+    background: #054f77;
+    color: #fff;
+    font-weight: bold;
+}
+.topo span {
+    margin: 1px 3px;
+}
+
+.error {
+    text-align: center;
+}
